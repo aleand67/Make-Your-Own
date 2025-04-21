@@ -1,0 +1,432 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    "%@" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%@'s Pizza" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza de %@"
+          }
+        }
+      }
+    },
+    "+ ingredient" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+ ingrediente"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamo"
+          }
+        }
+      }
+    },
+    "Anchovies 🐟" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anchoas 🐟"
+          }
+        }
+      }
+    },
+    "Bacon 🥓" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panceta 🥓"
+          }
+        }
+      }
+    },
+    "Basil 🌿" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Albahaca 🌿"
+          }
+        }
+      }
+    },
+    "Can't Undo" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acción Irreversible."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
+          }
+        }
+      }
+    },
+    "Garlic 🧄" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajo 🧄"
+          }
+        }
+      }
+    },
+    "Goat Cheese 🐐 🧀" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queso de Cabra 🧀 🐐"
+          }
+        }
+      }
+    },
+    "half" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "half"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "media"
+          }
+        }
+      }
+    },
+    "How hungry are you?" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo andamos de hambre, maestro?"
+          }
+        }
+      }
+    },
+    "I need a name" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ponele nombre primero"
+          }
+        }
+      }
+    },
+    "I want it NOW!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La quiero YA!"
+          }
+        }
+      }
+    },
+    "Ingredient" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrediente"
+          }
+        }
+      }
+    },
+    "Ingredients" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes"
+          }
+        }
+      }
+    },
+    "Jalapeño 🌶️" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putaparió 🌶️"
+          }
+        }
+      }
+    },
+    "Make your choices:" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qué queremos hoy, capo?"
+          }
+        }
+      }
+    },
+    "Make Your Own" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacé la Tuya"
+          }
+        }
+      }
+    },
+    "Mozzarella ⚪️" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muzza ⚪️"
+          }
+        }
+      }
+    },
+    "Mushrooms 🍄‍🟫" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Champiñones 🍄‍🟫"
+          }
+        }
+      }
+    },
+    "New Ingredient" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrediente Nuevo"
+          }
+        }
+      }
+    },
+    "No. Go back to making pizzas." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No. Vamos a hacer mas pizza."
+          }
+        }
+      }
+    },
+    "Ok. Party over." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo. Se acabó la joda. Todos a casa!"
+          }
+        }
+      }
+    },
+    "Olives 🫒" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceitunas 🫒"
+          }
+        }
+      }
+    },
+    "Onion Sauce 🧅" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cebolla Caramelizada 🧅"
+          }
+        }
+      }
+    },
+    "Parmegiano 🧀" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parmesano 🧀"
+          }
+        }
+      }
+    },
+    "Pepperoni 🍕" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pepperoni 🍕"
+          }
+        }
+      }
+    },
+    "Pineapple 🍍" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ananá 🍍"
+          }
+        }
+      }
+    },
+    "Pizza Ordered!!!!" : {
+
+    },
+    "Size" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño"
+          }
+        }
+      }
+    },
+    "Special Instructions" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedidos especiales"
+          }
+        }
+      }
+    },
+    "Start Ordering!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya estamos!"
+          }
+        }
+      }
+    },
+    "Tomato Sauce🥫" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salsa de Tomate🥫"
+          }
+        }
+      }
+    },
+    "Tomatoes 🍅" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomate 🍅"
+          }
+        }
+      }
+    },
+    "whole" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "whole"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "entera"
+          }
+        }
+      }
+    },
+    "Yes. I'm done making pizzas." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si. Se acabó nomás."
+          }
+        }
+      }
+    },
+    "You Sure?" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguro?"
+          }
+        }
+      }
+    },
+    "Your Name" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre o apodo"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

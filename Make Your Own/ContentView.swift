@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @AppStorage("ingredientsDone") private var ingredientsDone: Bool = false
+    @AppStorage("ingredients") private var ingredients = starterIngredients
+    
     var body: some View {
-        MakeYourPizzaView()
+        IngredientsEditView()
+            .showView(!ingredientsDone)
+        PizzasListView(
+            orders: [Pizza.starterPizza(ingredients: ingredients)],
+            ingredientsDone: ingredientsDone
+        )
+        .showView(ingredientsDone)
+        .preferredColorScheme(.dark)
     }
 }
 
