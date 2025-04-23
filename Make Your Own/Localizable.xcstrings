@@ -24,6 +24,16 @@
         }
       }
     },
+    "%@'s pizza coming up!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una pizza para %@ saliendo!"
+          }
+        }
+      }
+    },
     "+ ingredient" : {
       "localizations" : {
         "es-419" : {
@@ -147,6 +157,16 @@
         }
       }
     },
+    "Hot Peppers 🌶️" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putaparió 🌶️"
+          }
+        }
+      }
+    },
     "How hungry are you?" : {
       "localizations" : {
         "es-419" : {
@@ -177,6 +197,16 @@
         }
       }
     },
+    "I'm set!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estamos!"
+          }
+        }
+      }
+    },
     "Ingredient" : {
       "localizations" : {
         "es-419" : {
@@ -193,16 +223,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingredientes"
-          }
-        }
-      }
-    },
-    "Jalapeño 🌶️" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Putaparió 🌶️"
           }
         }
       }
@@ -327,35 +347,12 @@
         }
       }
     },
-    "Pizza Ordered!!!!" : {
-
-    },
-    "Size" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tamaño"
-          }
-        }
-      }
-    },
     "Special Instructions" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pedidos especiales"
-          }
-        }
-      }
-    },
-    "Start Ordering!" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ya estamos!"
           }
         }
       }

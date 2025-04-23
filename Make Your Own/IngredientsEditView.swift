@@ -27,18 +27,6 @@ struct IngredientsEditView: View {
                 Button("+ ingredient") {
                     addingIngredient.toggle()
                 }
-                .alert("New Ingredient", isPresented: $addingIngredient) {
-                    TextField("Ingredient", text: $newIngredient)
-                    Button("Cancel", role: .cancel) {
-                        newIngredient = ""
-                    }
-                    Button("Add") {
-                        if !newIngredient.isEmpty {
-                            ingredients.append(newIngredient)
-                            newIngredient = ""
-                        }
-                    }
-                }
             }
             .navigationTitle("Ingredients")
             .toolbar {
@@ -46,10 +34,26 @@ struct IngredientsEditView: View {
                     EditButton()
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Start Ordering!") {
+                    Button("I'm set!") {
                         ingredientsDone = true
                     }
+                    .padding(.horizontal, 15)
+                    .foregroundStyle(.white)
+                    .background(Color.blue)
+                    .clipShape(Capsule())
                 }
+            }
+        }
+        .alert("New Ingredient", isPresented: $addingIngredient) {
+            TextField("Ingredient", text: $newIngredient)
+            Button("Cancel", role: .cancel) {
+                newIngredient = ""
+            }
+            Button("Add") {
+                if !newIngredient.isEmpty && !ingredients.contains(newIngredient) { // && clause to prevent repeats
+                    ingredients.append(newIngredient)
+                    newIngredient = "" //clear TextField
+                } else {newIngredient = ""} //clear TextField if repeated
             }
         }
     }
