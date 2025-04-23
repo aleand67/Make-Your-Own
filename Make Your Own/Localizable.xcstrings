@@ -24,6 +24,16 @@
         }
       }
     },
+    "%@'s pizza coming up!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una pizza para %@ saliendo!"
+          }
+        }
+      }
+    },
     "+ ingredient" : {
       "localizations" : {
         "es-419" : {
@@ -323,19 +333,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ananá 🍍"
-          }
-        }
-      }
-    },
-    "Pizza Ordered!!!!" : {
-
-    },
-    "Size" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tamaño"
           }
         }
       }

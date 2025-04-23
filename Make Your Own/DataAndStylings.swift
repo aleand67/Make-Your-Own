@@ -11,6 +11,13 @@ enum fractions: String, Codable, CaseIterable {
     case half
     case whole
     
+    var image: Image {
+        switch self {
+            case .half: return Image("half")
+            case .whole: return Image("whole")
+        }
+    }
+    
     var localizedName: String {
         if #available(macOS 12, iOS 15, *) {
             return String(localized: String.LocalizationValue(rawValue))
@@ -46,7 +53,7 @@ struct Pizza: Identifiable {
         Pizza(
             id: UUID(),
             name: "",
-            size: .half,
+            size: .whole,
             ingredientList: zip(ingredients, Array(repeating: false, count: ingredients.count)).map(Ingredient.init),
             instructions: "",
             done: false
@@ -82,6 +89,7 @@ extension View {
 struct TextFieldStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
+            .autocorrectionDisabled(true)
             .font(Font.largeTitle)
             .padding()
             .background(RoundedRectangle(cornerRadius: 10).fill(Color.gray))
