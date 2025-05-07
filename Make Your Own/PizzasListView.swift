@@ -14,14 +14,14 @@ struct PizzasListView: View {
     @State var pizzaOrderedSplash = false
     @State var pizzaOwnerName = ""
     @State private var showAlert: Bool = false
-    @AppStorage("ingredientsDone") var ingredientsDone = false
+    @AppStorage("ingredientsSet") var ingredientsSet = false
     
     var body: some View {
         ZStack {
             TabView(selection: $selectedTab) {
                 ForEach($orders.indices, id: \.self) { i in
                     ScrollView (.vertical) {
-                        PizzaRecipeView(
+                        PizzaOrdering(
                             orders: $orders,
                             order: $orders[i],
                             pizzaOrderedSplash: $pizzaOrderedSplash,
@@ -38,7 +38,7 @@ struct PizzasListView: View {
                 .tabItem { Text("Done") }
                 .alert("You Sure?", isPresented: $showAlert) {
                     Button("Yes. I'm done making pizzas.", role: .destructive) {
-                        ingredientsDone = false
+                        ingredientsSet = false
                     }
                     Button("No. Go back to making pizzas.", role: .cancel) {
                         selectedTab = 0
@@ -59,5 +59,5 @@ struct PizzasListView: View {
 
 #Preview {
     @Previewable @State var orders = [Pizza.samplePizza]
-    PizzasListView(orders: orders, ingredientsDone: true)
+    PizzasListView(orders: orders, ingredientsSet: true)
 }

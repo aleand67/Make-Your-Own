@@ -103,6 +103,23 @@ extension View {
     }
 }
 
+struct CenteredStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        HStack{
+            Spacer(minLength: 0)
+            content
+            Spacer(minLength: 0)
+        }
+    }
+}
+
+extension View {
+    func centered() -> some View {
+        self.modifier(CenteredStyle())
+    }
+}
+
+
 extension Array: @retroactive RawRepresentable where Element: Codable {
     public init?(rawValue: String) {
         guard let data = rawValue.data(using: .utf8),
@@ -145,7 +162,7 @@ let starterIngredients = [
     String(localized: "Goat Cheese 🐐 🧀"),
     String(localized: "Tomatoes 🍅"),
     String(localized: "Mushrooms 🍄‍🟫"),
-    String(localized: "Parmegiano 🧀"),
+    String(localized: "Parmesan 🧀"),
     String(localized: "Garlic 🧄"),
     String(localized: "Basil 🌿"),
     String(localized: "Pepperoni 🍕"),

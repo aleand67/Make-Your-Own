@@ -1,5 +1,5 @@
 //
-//  PizzaRecipeView.swift
+//  PizzaOrdering.swift
 //  Make Your Own
 //
 //  Created by Alejandro Andreotti on 4/9/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PizzaRecipeView: View {
+struct PizzaOrdering: View {
     @Binding var orders: [Pizza]
     @Binding var order: Pizza
     @Binding var pizzaOrderedSplash: Bool
@@ -36,6 +36,8 @@ struct PizzaRecipeView: View {
                     .showView(!order.done)
                 
                 PickerWithImage(selection: $order.size)
+                    .centered()   
+
                 
                 Divider()
                     .frame(height: 20)
@@ -58,25 +60,27 @@ struct PizzaRecipeView: View {
                 Divider()
                     .frame(height: 20)
                 
-                HStack {
-                    Spacer()
-                    Button(order.name.isEmpty ? "I need a name" : "I want it NOW!") {
+                Button(order.name.isEmpty ? "I need a name" : "I want it NOW!") {
                         order.done = true
                         instructionsFocused = false
                         
                         pizzaOrderedSplash = true
                         pizzaOwnerName = order.name
                         
+                        if order.size == .half {
+                            orders.insert(order, at: orders.count)
+                            orders.remove(at: 0)
+                        } // put all half pizzas together
+                        
                         orders.insert(
                             Pizza.starterPizza(ingredients: ingredients),
                             at: 0
                         )
                     }
+                    .centered()
                     .disabled(order.name.isEmpty)
                     .buttonStyle(AnimatePill())
                     .showView(!order.done)
-                    Spacer()
-                }
             }
         }
     }
@@ -87,5 +91,5 @@ struct PizzaRecipeView: View {
     @Previewable @State var orders = [Pizza.samplePizza]
     @Previewable @State var pizzaOrderedSplash: Bool = false
     @Previewable @State var pizzaOwnerName: String = ""
-    PizzaRecipeView(orders: $orders, order: $order, pizzaOrderedSplash: $pizzaOrderedSplash, pizzaOwnerName: $pizzaOwnerName)
+    PizzaOrdering(orders: $orders, order: $order, pizzaOrderedSplash: $pizzaOrderedSplash, pizzaOwnerName: $pizzaOwnerName)
 }

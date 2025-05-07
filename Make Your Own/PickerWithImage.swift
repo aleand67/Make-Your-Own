@@ -31,7 +31,7 @@ struct PickerWithImage: View {
                         if axis == .horizontal {
                             return (horizontalSizeClass == .compact) ? length * 0.46 : length * 0.48
                         } else {
-                            return (horizontalSizeClass == .compact) ? length / 4 : length / 8
+                            return (horizontalSizeClass == .compact) ? length * 0.25 : length * 0.125
                         }
                     }
                 }

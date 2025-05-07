@@ -1,5 +1,5 @@
 //
-//  IngredientsEditView.swift
+//  ChefsPage.swift
 //  Make Your Own
 //
 //  Created by Alejandro Andreotti on 4/15/25.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct IngredientsEditView: View {
+struct ChefsPage: View {
     
     @AppStorage("ingredients") var ingredients = starterIngredients
-    @AppStorage("ingredientsDone") var ingredientsDone: Bool = false
+    @AppStorage("ingredientsSet") var ingredientsSet: Bool = false
     @State private var addingIngredient = false
     @State private var newIngredient = ""
     
@@ -28,14 +28,14 @@ struct IngredientsEditView: View {
                     addingIngredient.toggle()
                 }
             }
-            .navigationTitle("Ingredients")
+            .navigationTitle("Chef's Page")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("I'm set!") {
-                        ingredientsDone = true
+                        ingredientsSet = true
                     }
                     .padding(.horizontal, 15)
                     .foregroundStyle(.white)
@@ -69,5 +69,5 @@ struct IngredientsEditView: View {
 
 
 #Preview {
-    IngredientsEditView()
+    ChefsPage()
 }

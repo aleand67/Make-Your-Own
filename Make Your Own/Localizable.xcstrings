@@ -11,6 +11,12 @@
             "state" : "translated",
             "value" : "%@"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
         }
       }
     },
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza de %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Pizza di %@"
           }
         }
       }
@@ -31,12 +43,24 @@
             "state" : "translated",
             "value" : "Una pizza para %@ saliendo!"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza di %@ in arrivo!"
+          }
         }
       }
     },
     "+ ingredient" : {
       "localizations" : {
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+ ingrediente"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "+ ingrediente"
@@ -51,6 +75,12 @@
             "state" : "translated",
             "value" : "Vamo"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungere"
+          }
         }
       }
     },
@@ -60,6 +90,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anchoas 🐟"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciughe 🐟"
           }
         }
       }
@@ -71,6 +107,12 @@
             "state" : "translated",
             "value" : "Panceta 🥓"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bacon 🥓"
+          }
         }
       }
     },
@@ -81,6 +123,12 @@
             "state" : "translated",
             "value" : "Albahaca 🌿"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basilico 🌿"
+          }
         }
       }
     },
@@ -90,6 +138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acción Irreversible."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None è possibile annullare"
           }
         }
       }
@@ -107,6 +161,28 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancellare"
+          }
+        }
+      }
+    },
+    "Chef's Page" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Página del Chef"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagina Dello Pizzaiolo"
+          }
         }
       }
     },
@@ -116,6 +192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Listo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto"
           }
         }
       }
@@ -127,6 +209,12 @@
             "state" : "translated",
             "value" : "Ajo 🧄"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agli 🧄"
+          }
         }
       }
     },
@@ -136,6 +224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Queso de Cabra 🧀 🐐"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formaggio di Capra 🐐 🧀"
           }
         }
       }
@@ -154,6 +248,12 @@
             "state" : "translated",
             "value" : "media"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mezza"
+          }
         }
       }
     },
@@ -163,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Putaparió 🌶️"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peperoncino 🌶️"
           }
         }
       }
@@ -174,6 +280,12 @@
             "state" : "translated",
             "value" : "Cómo andamos de hambre, maestro?"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quanto siamo affamati?"
+          }
         }
       }
     },
@@ -183,6 +295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ponele nombre primero"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ho bisogno di un nome"
           }
         }
       }
@@ -194,6 +312,12 @@
             "state" : "translated",
             "value" : "La quiero YA!"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La voglio presto!"
+          }
         }
       }
     },
@@ -203,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estamos!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto!"
           }
         }
       }
@@ -214,15 +344,11 @@
             "state" : "translated",
             "value" : "Ingrediente"
           }
-        }
-      }
-    },
-    "Ingredients" : {
-      "localizations" : {
-        "es-419" : {
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ingredientes"
+            "value" : "Ingrediente"
           }
         }
       }
@@ -234,6 +360,12 @@
             "state" : "translated",
             "value" : "Qué queremos hoy, capo?"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa vuoi?"
+          }
         }
       }
     },
@@ -243,6 +375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacé la Tuya"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fà La Tua"
           }
         }
       }
@@ -254,6 +392,12 @@
             "state" : "translated",
             "value" : "Muzza ⚪️"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mozzarella ⚪️"
+          }
         }
       }
     },
@@ -263,6 +407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Champiñones 🍄‍🟫"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funghi 🍄‍🟫"
           }
         }
       }
@@ -274,6 +424,12 @@
             "state" : "translated",
             "value" : "Ingrediente Nuevo"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuovo Ingrediente"
+          }
         }
       }
     },
@@ -283,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No. Vamos a hacer mas pizza."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No. Torna a fare pizza."
           }
         }
       }
@@ -294,6 +456,12 @@
             "state" : "translated",
             "value" : "Listo. Se acabó la joda. Todos a casa!"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok. Pizza party è finita."
+          }
         }
       }
     },
@@ -303,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aceitunas 🫒"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olive 🫒"
           }
         }
       }
@@ -314,15 +488,27 @@
             "state" : "translated",
             "value" : "Cebolla Caramelizada 🧅"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cipolle Caramellate 🧅"
+          }
         }
       }
     },
-    "Parmegiano 🧀" : {
+    "Parmesan 🧀" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parmesano 🧀"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parmigiano 🧀"
           }
         }
       }
@@ -334,6 +520,12 @@
             "state" : "translated",
             "value" : "Pepperoni 🍕"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peperoni 🍕"
+          }
         }
       }
     },
@@ -343,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ananá 🍍"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ananas 🍍"
           }
         }
       }
@@ -354,6 +552,12 @@
             "state" : "translated",
             "value" : "Pedidos especiales"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richieste Speciali"
+          }
         }
       }
     },
@@ -364,6 +568,12 @@
             "state" : "translated",
             "value" : "Salsa de Tomate🥫"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salsa di Pomodoro🥫"
+          }
         }
       }
     },
@@ -373,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tomate 🍅"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomodori 🍅"
           }
         }
       }
@@ -391,6 +607,12 @@
             "state" : "translated",
             "value" : "entera"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "intera"
+          }
         }
       }
     },
@@ -400,6 +622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si. Se acabó nomás."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì, ho finito di fare pizzas."
           }
         }
       }
@@ -411,6 +639,12 @@
             "state" : "translated",
             "value" : "Seguro?"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sei sicuro?"
+          }
         }
       }
     },
@@ -420,6 +654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre o apodo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
           }
         }
       }
