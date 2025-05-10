@@ -16,7 +16,7 @@ struct ChefsPage: View {
     
     var body: some View {
         NavigationStack {
-            List {
+            Form {
                 Section {
                     ForEach ($ingredients, id: \.self, editActions: .all) { $ingredient in
                         Text(ingredient)

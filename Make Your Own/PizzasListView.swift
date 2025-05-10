@@ -30,9 +30,12 @@ struct PizzasListView: View {
                     .tag(i) //tag with array index
                     .tabItem{ Text("\(orders[i].name)") }
                 }
-                Button("Ok. Party over.", role: .destructive) {
-                    showAlert = true
-                }
+                Button(role: orders.count > 1 ? .destructive : .cancel) {
+                    if orders.count > 1 { showAlert = true
+                    } else {
+                        ingredientsSet = false
+                    }
+                } label: {orders.count > 1 ? Text("Ok. Party Over.") : Text("Edit Ingredients")}
                 .buttonStyle(AnimatePill())
                 .tag(-1)
                 .tabItem { Text("Done") }
@@ -44,7 +47,6 @@ struct PizzasListView: View {
                         selectedTab = 0
                     }
                 } message: { Text("Can't Undo") }
-                    .showView(orders.count > 1) //only show if there's at least one pizza made
             }
             .tabViewStyle(.page(indexDisplayMode: .always))
             .indexViewStyle(.page(backgroundDisplayMode: .always))

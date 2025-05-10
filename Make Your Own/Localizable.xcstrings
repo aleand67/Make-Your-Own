@@ -202,6 +202,22 @@
         }
       }
     },
+    "Edit Ingredients" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar Lista de Ingredientes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica Elenco Ingredienti"
+          }
+        }
+      }
+    },
     "Garlic 🧄" : {
       "localizations" : {
         "es-419" : {
@@ -449,7 +465,7 @@
         }
       }
     },
-    "Ok. Party over." : {
+    "Ok. Party Over." : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
